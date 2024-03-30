@@ -1,0 +1,16 @@
+Zabbix-PPPOE-Plugin/
+│
+├── README.md
+├── pppoe_monitoring.py   # Python script for PPPOE session monitoring
+├── graphs/               # Folder containing example graphs
+│   ├── pppoe_sessions.png
+│   └── ...
+├── requirements.txt      # Dependencies for the plugin
+└── LICENSE               # License file
+echo "# Zabbix-PlugIN" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zabbix-PlugIN/Zabbix-PlugIN.git
+git push -u origin main
